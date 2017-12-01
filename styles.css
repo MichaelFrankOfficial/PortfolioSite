@@ -1,0 +1,60 @@
+.navbar-default {
+    background-color:transparent !important;
+    border-color:transparent;
+    background-image:none;
+    box-shadow:none;  
+}
+.navbar-default .navbar-nav>li>a {
+    font-size:20px; 
+    color:#fff; 
+}
+body{
+    background-image: url("resources/michaelHomeIMG.jpg");
+}
+@media (min-width: 1200px){
+    .navbar-nav > li{
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+    .brandPOS{
+        padding-left: 2em;
+    }
+}
+.HomeSpacing{
+    border-bottom: 2px solid #f5f6f7;
+    justify-content: center;
+    text-align: center;
+}
+.contentSpace{
+    margin-top: 2em;
+}
+.contentDesign{
+    background: rgba(0,0,0,.2);
+}
+#footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;
+    background:#37474F;
+ }
+#footerContent{
+    background: #212529;
+    height: 100%;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+.h2Intro{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2em;
+    color: #63707e;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.pHome{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.5em;
+    color: #63707e;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
